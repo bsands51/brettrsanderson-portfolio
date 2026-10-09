@@ -184,6 +184,7 @@ html body .reveal.visible {
   letter-spacing: 1px;
 }
 
+
 #ai-system .node-arrow {
   width: 100%;
   margin-top: auto;
@@ -193,17 +194,32 @@ html body .reveal.visible {
   color: #c2d0d4;
   font-size: 9px;
   letter-spacing: 0.7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
 }
 
+
+
 #ai-system .node-arrow span {
-  display: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  border: 1px solid #526b70;
+  border-radius: 50%;
+  color: #72cfc0;
+  font-size: 20px;
+  line-height: 1;
 }
 
 #ai-system .node-arrow::after {
-  content: " ↗";
-  color: #72cfc0;
-  font-size: 13px;
+  content: none;
 }
+
 
 #ai-system .system-node.active {
   background: #223237;
