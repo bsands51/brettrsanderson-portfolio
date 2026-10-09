@@ -431,3 +431,15 @@ html body .reveal.visible {
 .system-node.active .system-node-icon {
   transform: rotate(45deg);
 }
+
+
+/* Wordmark signature accent */
+.wordmark::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-left: 5px;
+  background: var(--teal);
+  vertical-align: middle;
+}
