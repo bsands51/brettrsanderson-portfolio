@@ -49,8 +49,7 @@ systemNodes.forEach((node) => {
     document.querySelector('#detail-copy').textContent = content.copy;
     document.querySelector('#detail-example').textContent = content.example;
   });
-});
-
+  });
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.site-header nav');
 
