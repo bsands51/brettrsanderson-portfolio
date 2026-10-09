@@ -77,3 +77,10 @@
   outline: 2px solid var(--teal);
   outline-offset: 3px;
 }
+/* Emergency fix: keep all page content visible */
+html body .reveal,
+html body .reveal.visible {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+}
