@@ -19,15 +19,16 @@
 /* Wordmark refinement: let the name carry the identity. */
 .wordmark{font-weight:750;letter-spacing:-.65px;color:var(--ink)}
 .site-footer .wordmark{font-weight:750}
+
 ```css
 .nav-contact {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 12px 20px;
-  background: var(--ink, #242a27);
+  background: var(--ink);
   color: #fff;
-  border: 1px solid var(--ink, #242a27);
+  border: 1px solid var(--ink);
   border-radius: 4px;
   font-weight: 600;
   text-decoration: none;
