@@ -31,6 +31,7 @@ const layerContent = {
 };
 
 
+
 document.querySelectorAll('.system-node').forEach((node) => {
   node.addEventListener('click', () => {
     const key = node.dataset.layer;
@@ -44,9 +45,13 @@ document.querySelectorAll('.system-node').forEach((node) => {
     });
 
     document.querySelector('.detail-number').textContent = content.number;
+    document.querySelector('.detail-label').textContent = content.label;
     document.querySelector('#detail-title').textContent = content.title;
     document.querySelector('#detail-copy').textContent = content.copy;
+    document.querySelector('#detail-example').textContent = content.example;
   });
+});
+
 });
 
 
