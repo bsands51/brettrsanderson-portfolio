@@ -433,11 +433,15 @@ html body .reveal.visible {
 }
 /* Global signature star */
 .signature-star,
+
 .art-label i {
+  display: inline-block;
   color: var(--teal, #45c8c0);
   font-style: normal;
+  font-size: 11px;
   line-height: 1;
 }
+
 
 .signature-star {
   display: inline-block;
