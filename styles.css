@@ -460,3 +460,108 @@ html body .reveal.visible {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+
+/* AI GTM system-wide operating principles */
+#ai-system .system-principles {
+  margin-top: 28px;
+  padding-top: 25px;
+  border-top: 1px solid var(--dark-line);
+}
+
+#ai-system .principles-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+#ai-system .principles-eyebrow {
+  margin: 0 0 10px;
+  color: var(--teal);
+  font: 9px var(--mono);
+  letter-spacing: 1px;
+}
+
+#ai-system .principles-heading h3 {
+  margin: 0;
+  color: var(--white);
+  font: 600 clamp(20px, 2.2vw, 27px)/1.3 var(--display);
+  letter-spacing: -.5px;
+}
+
+#ai-system .principles-scope {
+  flex-shrink: 0;
+  padding: 7px 9px;
+  border: 1px solid #3b5557;
+  color: var(--teal);
+  font: 9px var(--mono);
+  letter-spacing: .7px;
+}
+
+#ai-system .principles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--dark-line);
+}
+
+#ai-system .principle-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  min-width: 0;
+  padding: 20px 18px;
+}
+
+#ai-system .principle-item + .principle-item {
+  border-left: 1px solid var(--dark-line);
+}
+
+#ai-system .principle-mark {
+  flex: 0 0 27px;
+  color: var(--teal);
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+#ai-system .principle-label {
+  display: block;
+  margin-bottom: 11px;
+  color: #80d8ca;
+  font: 9px var(--mono);
+  letter-spacing: .7px;
+}
+
+#ai-system .principle-item h4 {
+  margin: 0 0 9px;
+  color: var(--white);
+  font: 600 14px/1.45 var(--display);
+}
+
+#ai-system .principle-item p {
+  margin: 0;
+  color: #b7c4c8;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+@media (max-width: 760px) {
+  #ai-system .principles-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #ai-system .principles-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #ai-system .principle-item + .principle-item {
+    border-left: 0;
+    border-top: 1px solid var(--dark-line);
+  }
+
+  #ai-system .principle-item {
+    padding: 18px;
+  }
+}
