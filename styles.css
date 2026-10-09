@@ -391,3 +391,27 @@ html body .reveal.visible {
     display: none;
   }
 }
+
+/* In-place interaction cue for process stages */
+.system-node-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 1;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.system-node:hover .system-node-icon,
+.system-node.active .system-node-icon {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.system-node.active .system-node-icon {
+  transform: rotate(45deg);
+}
