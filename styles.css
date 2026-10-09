@@ -19,3 +19,25 @@
 /* Wordmark refinement: let the name carry the identity. */
 .wordmark{font-weight:750;letter-spacing:-.65px;color:var(--ink)}
 .site-footer .wordmark{font-weight:750}
+```css
+.nav-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background: var(--ink, #242a27);
+  color: #fff;
+  border: 1px solid var(--ink, #242a27);
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.nav-contact:hover {
+  background: #356b66;
+  border-color: #356b66;
+  color: #fff;
+  transform: translateY(-2px);
+}
+```
