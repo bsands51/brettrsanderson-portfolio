@@ -46,3 +46,34 @@
 .site-header nav a.nav-contact:hover {
   color: #fff;
 }
+
+.detail-example {
+  margin-top: 18px;
+  padding: 15px 17px;
+  border-left: 2px solid var(--teal);
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.detail-example > span {
+  display: block;
+  margin-bottom: 8px;
+  color: #a9cfc5;
+  font: 9px var(--mono);
+  letter-spacing: 1px;
+}
+
+.detail-example p {
+  margin: 0;
+  color: #e0e8e8;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.system-node {
+  cursor: pointer;
+}
+
+.system-node:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+}
