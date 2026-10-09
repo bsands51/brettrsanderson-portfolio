@@ -42,3 +42,7 @@
   transform: translateY(-2px);
 }
 
+.site-header nav a.nav-contact,
+.site-header nav a.nav-contact:hover {
+  color: #fff;
+}
