@@ -431,3 +431,21 @@ html body .reveal.visible {
 .system-node.active .system-node-icon {
   transform: rotate(45deg);
 }
+/* Global signature star */
+.signature-star,
+.art-label i {
+  color: var(--teal, #45c8c0);
+  font-style: normal;
+  line-height: 1;
+}
+
+.signature-star {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.art-label i {
+  display: inline-block;
+  font-size: 11px;
+}
