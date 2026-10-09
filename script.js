@@ -1,22 +1,35 @@
 
 const layerContent = {
   direction: {
-    number: '01', title: 'Human direction sets the destination.',
-    copy: 'Priorities, context, judgment, and taste determine what matters. AI is most useful when it is working toward a clear objective rather than guessing at one.'
+    number: '01',
+    label: 'STAGE 01 · THE STARTING POINT',
+    title: 'Strategy starts with human direction.',
+    copy: 'Business objectives, market realities, and commercial priorities establish what the GTM system needs to accomplish. Human judgment sets the direction; AI helps accelerate the work that follows.',
+    example: 'Clear priorities, defined objectives, and a focused direction for GTM execution.'
   },
   foundation: {
-    number: '02', title: 'Strategic context creates consistency.',
-    copy: 'A defined foundation keeps the work anchored to the right positioning, voice, priorities, and standards. AI can accelerate execution because the strategic direction is already clear.'
+    number: '02',
+    label: 'STAGE 02 · THE STRATEGIC FOUNDATION',
+    title: 'Strategic context creates consistency.',
+    copy: 'A defined foundation keeps the work anchored to the right positioning, voice, priorities, and standards. AI can accelerate execution because the strategic direction is already clear.',
+    example: 'Consistent positioning, approved messaging, and a reliable source of strategic knowledge.'
   },
   execution: {
-    number: '03', title: 'Connected workflows turn strategy into useful work.',
-    copy: 'Repeatable workflows support different GTM needs, from seller readiness to external storytelling and operational follow-through, without treating every task as a one-off.'
+    number: '03',
+    label: 'STAGE 03 · THE WORKFLOW ENGINE',
+    title: 'Connected workflows turn strategy into useful work.',
+    copy: 'Repeatable workflows connect different GTM needs, from seller readiness and content development to research and operational follow-through. Each workflow builds on the same strategic foundation rather than operating as a disconnected task.',
+    example: 'Repeatable processes for sales enablement, content, research, and GTM operations.'
   },
   activation: {
-    number: '04', title: 'The output has to work in the real world.',
-    copy: 'The measure is not how much content gets generated. It is whether teams can use the work, tell a consistent story, respond to buyers, and move opportunities forward.'
+    number: '04',
+    label: 'STAGE 04 · COMMERCIAL ACTIVATION',
+    title: 'The output has to work in the real world.',
+    copy: 'The measure is not how much content gets generated. It is whether teams can use the work, tell a consistent story, respond to buyers, and move opportunities forward.',
+    example: 'Usable sales tools, consistent market-facing content, and execution tied to business priorities.'
   }
 };
+
 
 document.querySelectorAll('.system-node').forEach((node) => {
   node.addEventListener('click', () => {
