@@ -360,3 +360,12 @@ html body .reveal.visible {
   }
 }
 
+/* Force consistent AI stage top bars */
+#ai-system .system-flow .system-node {
+  border-top: 2px solid #52636a !important;
+}
+
+#ai-system .system-flow .system-node.active {
+  border-top: 2px solid #4bc8b8 !important;
+}
+
